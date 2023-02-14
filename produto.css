@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family= Mukta & display = swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Playfair+Display&display=swap');
+
+
+*  {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+strong {
+    color: #ff0000;
+}
+
+.paragrafo  {
+    color: rgb(9, 250, 9);
+}
+
+.Apresentacao  {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Apresentacao__conteudo  {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Apresentacao__conteudo__titulo  {
+    font-size: 30px;
+    font-family: 'Mukta', sans-serif;
+    ;
+}
+
+.Apresentacao__conteudo__texto  {
+    font-size: 21px;
+}
+
+.Apresentacao__dos__liks  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.subtitulo  {
+    font-family: 'Krona One' , sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.ternos  {
+    /*background-color: #9370DB;*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #9370DB;
+    width: 300px; 
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    color: whitesmoke;
+}
+
+.ternos:hover  {
+    background-color: #470052;
+}
+
+.calcas  {
+    /*background-color: #BA55D3;*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #BA55D3;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    color: whitesmoke;
+}
+
+.calcas:hover  {
+    background-color: #700c6d;
+}
+
+.sapatos  {
+    /*background-color: #8A2BE2;*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #8A2BE2;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    color: whitesmoke;
+}
+
+.sapatos:hover  {
+    background-color: #470052;
+}
+
+.gravata  {
+    color: #ff0000;
+}
+
+.teste  {
+    color: aquamarine;
+}
+
+.redo {
+    border-radius: 52px;
+}
+
+.rodape  {
+    padding: 30px;
+    background-color: #ff0000;
+}
+
+.pere {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+.ddd  {
+    color: black;
+}
